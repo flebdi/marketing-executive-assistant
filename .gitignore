@@ -1,0 +1,18 @@
+# Upstream reference clone (gstack). Local only, never committed.
+_reference/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node
+node_modules/
+
+# Local run output
+*.log
