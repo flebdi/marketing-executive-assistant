@@ -26,8 +26,9 @@ This skill is not campaign-scoped, so preamble sections 2, 3, 5, and 6 don't app
 - **It may edit `connections.md`** only to change tool names in the Registry table to match
   the team's stack. It never sets a tool's status to `connected`. That needs a working test
   call, which happens when the connection is set up.
-- **It never touches** `campaigns/`, `learnings/`, `playbooks/`, or `decisions/log.md`
-  (it suggests log entries instead).
+- **It may append to `decisions/log.md`** only after the user approves a suggested entry.
+  Use the log's format, with the user as "Decided by". Never edit or remove past entries.
+- **It never touches** `campaigns/`, `learnings/`, or `playbooks/`.
 
 ## 1. Choose the mode
 
@@ -224,6 +225,7 @@ After the last question (or when the user stops), give:
    specific gaps (e.g. "audiences.md: no verbatim quotes yet").
 3. **Top 3 gaps that will hurt the first campaign**, in priority order. Missing approvers,
    missing time zone, and an empty Approved claims table usually matter most.
-4. **Suggested `decisions/log.md` entries**, if any (stack swaps, compliance basis).
+4. **Suggested `decisions/log.md` entries**, if any (stack swaps, compliance basis). Ask
+   which ones to log, then append only the approved ones, as the user worded or corrected them.
 5. **Next:** `/campaign-office-hours` to brief the first campaign. If brand assets exist,
    `/brand-system` (once available) fills the visual rules.
