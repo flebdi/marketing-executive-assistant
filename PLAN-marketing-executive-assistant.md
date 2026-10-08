@@ -315,7 +315,7 @@ Rules:
 - [x] Write `CLAUDE.md`, `AGENTS.md`, `NOTICE.md`, `ETHOS.md`, `_shared/preamble.md`.
 - [x] Write the `BRAND.md` and `context/*.md` templates (blank, with guidance comments).
 - [x] Write `playbooks/naming-conventions.md` (campaign + UTM rules) and `campaigns/_template/`.
-- [ ] Commit: "Scaffold Marketing Executive Assistant".
+- [x] Commit: "Scaffold Marketing Executive Assistant".
 
 ### Phase 1: MVP, the core loop (Oct 10–16)
 - [ ] `/onboard-marketing`
