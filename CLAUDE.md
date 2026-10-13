@@ -32,6 +32,8 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 - `/brand-system` *(Phase 3)*: builds or extends `BRAND.md`.
 - `/audit` *(Phase 4)*: Four Cs score plus sprint coverage.
 - `/learnings` *(Phase 1)*: search, add, prune learnings.
+- `/meeting-summary`: summarizes a transcript in `transcripts/` with key decisions, action
+  items, and open questions. Writes `transcripts/summaries/<name>.md`.
 
 **Sprint**
 - `/campaign-office-hours` *(Phase 1)*: six forcing questions. Writes `brief.md`.
@@ -60,6 +62,7 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 - `connections.md`: every tool this assistant can reach, and at what tier.
 - `references/`: API notes for connected tools.
 - `decisions/log.md`: append-only decisions and gate overrides.
+- `transcripts/`: meeting transcripts. Summaries and key decisions in `transcripts/summaries/`.
 - `routines/`: scheduled work (weekly retro, launch watch).
 - `scripts/`: helpers (UTM builder, link checker).
 - `tests/`: one scenario file per skill.
