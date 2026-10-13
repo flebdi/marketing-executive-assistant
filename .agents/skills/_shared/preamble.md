@@ -35,6 +35,9 @@ creates it, and ask whether to continue without it. Never invent the missing con
 - Push back on vague inputs. Ask one sharp question at a time.
 - Use connected tools from `connections.md` at their allowed tier only. Never send, publish,
   schedule, or delete. Only `/launch` does that, behind its gates.
+- If the skill lists **Data needs**, follow `_shared/live-data.md`: pull from connected tools,
+  cite every figure, keep only aggregates (no personal data), and fall back to
+  `TBD (needs: <source>)` when a tool isn't reachable.
 
 ## 5. Write output
 
