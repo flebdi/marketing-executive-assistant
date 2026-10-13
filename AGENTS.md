@@ -38,9 +38,9 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 **Sprint**
 - `/campaign-office-hours` *(Phase 1)*: six forcing questions. Writes `brief.md`.
 - `/plan-cmo-review` *(Phase 2)*: scope and strategy review. Writes `plan-cmo.md`.
-- `/plan-ops-review` *(Phase 2)*: tracking, systems, scheduling. Writes `plan-ops.md`.
 - `/plan-brand-review` *(Phase 2)*: brand scoring. Writes `plan-brand.md`.
-- `/autoplan-campaign` *(Phase 2)*: runs the three plan reviews in order.
+- `/plan-ops-review` *(Phase 2)*: tracking, systems, scheduling. Writes `plan-ops.md`.
+- `/autoplan-campaign` *(Phase 2)*: runs the three plan reviews in order: CMO → brand → ops.
 - `/creative-shotgun` *(Phase 3)*: 4 to 6 variants. Writes `creative/`.
 - `/copy-review` *(Phase 3)*: writes `review-copy.md`.
 - `/compliance-review` *(Phase 3)*: writes `review-compliance.md`.

@@ -18,8 +18,8 @@ parts:
 |---|---|---|---|
 | Brief | `/campaign-office-hours` | Marketing partner | `brief.md` |
 | Plan | `/plan-cmo-review` | CMO | `plan-cmo.md` |
-| Plan | `/plan-ops-review` | MOps lead | `plan-ops.md` |
 | Plan | `/plan-brand-review` | Brand lead | `plan-brand.md` |
+| Plan | `/plan-ops-review` | MOps lead | `plan-ops.md` |
 | Create | `/creative-shotgun` | Creative director | `creative/` |
 | Review | `/copy-review` | Senior editor | `review-copy.md` |
 | Review | `/compliance-review` | Compliance officer | `review-compliance.md` |

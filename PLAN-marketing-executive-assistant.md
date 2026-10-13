@@ -120,9 +120,9 @@ This is the main idea taken from gstack. Every campaign lives in `campaigns/<YYY
 |---|---|---|
 | `status.md` | every skill (updates stage + scores) | every skill, `/audit` |
 | `brief.md` | `/campaign-office-hours` | everything downstream |
-| `plan-cmo.md` | `/plan-cmo-review` | ops, brand, create |
+| `plan-cmo.md` | `/plan-cmo-review` | brand, ops, create |
+| `plan-brand.md` | `/plan-brand-review` | ops, create, `/copy-review` |
 | `plan-ops.md` | `/plan-ops-review` | `/campaign-qa`, `/launch` |
-| `plan-brand.md` | `/plan-brand-review` | create, `/copy-review` |
 | `creative/` | `/creative-shotgun`, you | review, QA |
 | `review-copy.md` | `/copy-review` | `/launch` |
 | `review-compliance.md` | `/compliance-review` | `/launch` |
@@ -178,8 +178,8 @@ All skills load `_shared/preamble.md` first. The preamble says:
 |---|---|---|---|---|
 | Brief | `/campaign-office-hours` | Marketing partner | context, learnings → `brief.md` | none (it's the start) |
 | Plan | `/plan-cmo-review` | CMO | brief → `plan-cmo.md` | score ≥ 7 |
-| Plan | `/plan-ops-review` | MOps lead | brief, plan-cmo → `plan-ops.md` | score ≥ 7 |
-| Plan | `/plan-brand-review` | Brand lead | brief, BRAND.md → `plan-brand.md` | score ≥ 7 |
+| Plan | `/plan-brand-review` | Brand lead | brief, plan-cmo, BRAND.md → `plan-brand.md` | score ≥ 7 |
+| Plan | `/plan-ops-review` | MOps lead | brief, plan-cmo, plan-brand → `plan-ops.md` | score ≥ 7 |
 | Plan | `/autoplan-campaign` | Review pipeline | runs CMO → brand → ops in order | surfaces only judgment calls |
 | Create | `/creative-shotgun` | Creative director | plan-brand → `creative/variants/` | you pick a winner |
 | Review | `/copy-review` | Senior editor | creative, BRAND.md → `review-copy.md` | score ≥ 7, auto-fixes typos |
@@ -326,7 +326,7 @@ Rules:
 - **Exit check:** a stranger could run these 4 commands from the README and get useful files.
 
 ### Phase 2: Plan layer (Oct 17–23)
-- [ ] `/plan-cmo-review`, `/plan-ops-review`, `/plan-brand-review`
+- [ ] `/plan-cmo-review`, `/plan-brand-review`, `/plan-ops-review` (run in that order)
 - [ ] `/autoplan-campaign`
 - [ ] Scored gates written to `status.md`.
 
