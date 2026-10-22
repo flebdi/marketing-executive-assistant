@@ -51,3 +51,25 @@ node scripts/link-check.mjs tests/fixtures/qa/email-1.html --site northwind.exam
 ```
 
 Used by `/campaign-qa`.
+
+## due.mjs
+
+Lists what's due today across campaigns, `BRAND.md`, and `context/`. The routines in
+`routines/` run it first and act only on what it finds.
+
+- **QA countdown:** a launch exactly 3 or 1 business days away (re-run `/campaign-qa`).
+- **At risk:** a launch within 5 business days with a gate not passed and no override, or a
+  launch date that passed while the campaign is still pre-launch.
+- **Retro due:** a launched campaign past its brief's goal date with no `retro.md`.
+- **Stuck:** a pre-launch campaign with no `status.md` update in 7+ days.
+- **Claims:** `BRAND.md` Approved claims expired or expiring within 30 days.
+- **Context:** quarterly goals ended or ending within 30 days, past rows in the calendar's
+  upcoming launches, tools marked broken in `connections.md`.
+
+```bash
+node scripts/due.mjs                       # today
+node scripts/due.mjs --date 2026-11-05     # as if it were that day
+node scripts/due.mjs --only qa --json      # one check, machine-readable
+```
+
+Business days are Monday to Friday. Used by the routines in `routines/`.

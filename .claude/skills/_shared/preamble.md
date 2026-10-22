@@ -2,6 +2,10 @@
 
 Every skill in this template reads this file first and follows it.
 
+**Run by a routine?** If the prompt says it's a routine, nobody is in the session to answer.
+Also read `routines/_unattended.md`. Its rules override every "ask the user" step below and in
+the skill.
+
 ## 1. Load context
 
 Read these before doing anything else. Skip any that don't exist yet, and say which ones are

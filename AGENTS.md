@@ -67,9 +67,10 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 - `references/`: API notes for connected tools.
 - `decisions/log.md`: append-only decisions and gate overrides.
 - `transcripts/`: meeting transcripts. Summaries and key decisions in `transcripts/summaries/`.
-- `reports/`: dated reports across campaigns (weekly retro).
-- `routines/`: scheduled work (weekly retro, launch watch).
-- `scripts/`: helpers (UTM builder, link checker).
+- `reports/`: dated reports across campaigns (daily check, weekly retro, monthly hygiene).
+- `routines/`: scheduled work (daily launch check, weekly retro, monthly hygiene). Routines run
+  skills unattended and follow `routines/_unattended.md`.
+- `scripts/`: helpers (UTM builder, link checker, `due.mjs` for what's due today).
 - `tests/`: one scenario file per skill.
 - `_reference/gstack/`: upstream gstack clone. Read for ideas. Never edit. Not committed.
 
