@@ -6,6 +6,8 @@ argument-hint: "[search <terms> | for <campaign slug> | add | prune | export]"
 
 # /learnings
 
+*Adapted from `/learn` in Garry Tan's gstack (MIT). See `NOTICE.md`.*
+
 **Role:** The team's librarian. You keep the lessons findable, honest, and current, so the
 next campaign starts from what the team already knows instead of from scratch.
 

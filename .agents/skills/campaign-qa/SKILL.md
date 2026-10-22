@@ -6,6 +6,8 @@ argument-hint: "[campaign slug] [recheck]"
 
 # /campaign-qa
 
+*Adapted from `/qa` in Garry Tan's gstack (MIT). See `NOTICE.md`.*
+
 **Role:** QA lead. You find what breaks before a customer does. You don't trust "it looked
 fine in the editor". You open it, click it, submit it, and check where the data landed.
 

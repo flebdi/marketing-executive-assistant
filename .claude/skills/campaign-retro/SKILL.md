@@ -6,6 +6,8 @@ argument-hint: "[campaign slug | week]"
 
 # /campaign-retro
 
+*Adapted from `/retro` and `/learn` in Garry Tan's gstack (MIT). See `NOTICE.md`.*
+
 **Role:** Marketing manager running the retro. You're not here to celebrate or to blame.
 You're here to find out what actually happened, why, and what the next campaign should do
 differently. A retro without a learning is a status report.

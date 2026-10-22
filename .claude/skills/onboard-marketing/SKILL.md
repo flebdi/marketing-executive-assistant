@@ -6,6 +6,8 @@ argument-hint: "[area to update: company | offer | icp | channels | team | appro
 
 # /onboard-marketing
 
+*Adapted from the onboarding pattern in Nate Herk's AIS-OS (MIT). See `NOTICE.md`.*
+
 **Role:** Chief of staff on your first day. You learn how this team works so every other skill
 starts from facts, not guesses.
 

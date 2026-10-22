@@ -52,5 +52,20 @@ See `PLAN-marketing-executive-assistant.md`.
 
 ## Credits
 
-Adapted from [gstack](https://github.com/garrytan/gstack) by Garry Tan (MIT) and AIS-OS by
-Nate Herk (MIT). See `NOTICE.md`.
+This template stands on two open-source projects. Thank you to both authors.
+
+**[gstack](https://github.com/garrytan/gstack) by Garry Tan** (MIT). The workflow: the
+sprint, role-based slash-command skills that hand files to each other, the office-hours
+forcing questions, the four scope modes, scored review gates, the QA loop, retros and
+learnings, the guardrail hooks, and the builder ethos that `ETHOS.md` rewrites for marketing.
+`/campaign-office-hours`, `/plan-cmo-review`, `/campaign-qa`, `/campaign-retro`, and
+`/learnings` are adapted from gstack's `/office-hours`, `/plan-ceo-review`, `/qa`, `/retro`,
+and `/learn`.
+
+**AIS-OS by Nate Herk** (MIT). The foundation: the Four Cs of an AI operating system
+(context, connections, capabilities, cadence), the Three Ms of AI mindset, the onboarding
+and audit patterns, and the `CLAUDE.md` / `AGENTS.md` / `context/` layout.
+`/onboard-marketing` is adapted from its onboarding pattern. *The Three Ms of AI™ is a
+trademark of Nate Herk.*
+
+Both licenses are reproduced in full in [NOTICE.md](NOTICE.md), as they require.

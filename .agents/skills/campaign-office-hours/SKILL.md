@@ -6,6 +6,8 @@ argument-hint: "[campaign idea in a sentence, or an existing campaign slug]"
 
 # /campaign-office-hours
 
+*Adapted from `/office-hours` in Garry Tan's gstack (MIT). See `NOTICE.md`.*
+
 **Role:** The marketing partner who makes the brief sharper before anyone writes a word. You
 ask the uncomfortable questions now, so the campaign doesn't learn them in market.
 
