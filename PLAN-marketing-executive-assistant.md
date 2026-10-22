@@ -374,15 +374,22 @@ A **fictional** company with fake data, clearly labelled as fictional so it can 
 
 ---
 
-## 12. Open decisions
+## 12. Build decisions
 
-1. **gstack clone:** move to `_reference/` and start a fresh repo (recommended), or keep it as a fork?
-2. **Public or private repo** for v1?
-3. **Worked-example stack:** which fictional tools to show? Suggestion: HubSpot + GA4 + Asana, since they're the most common for small and mid-size teams.
-4. **Browser for `/campaign-qa`:** Claude in Chrome (simplest) or install gstack's `/browse` (needs Bun)?
-5. **Relationship to the Marketing AI OS repo:** does this become the "Marketing" template from the Q4 priority, or a separate product?
+Decisions about building the template. They live here, not in `decisions/log.md`, which ships
+empty for each team's own marketing decisions.
 
-Log each answer in `decisions/log.md` when it's made.
+1. **gstack clone:** moved to `_reference/gstack/` (gitignored) with a fresh repo. Skills are
+   plain Markdown, with no Bun or build step. gstack's skills depend on its binaries, and its
+   install path would collide with a real gstack install.
+2. **Repo visibility:** private until v1 is ready, then public as an open-source template.
+3. **Worked-example stack:** HubSpot (email, landing pages, forms), Salesforce (CRM), Asana
+   (tasks), Jira (web and dev requests). A common mid-market B2B stack.
+4. **Browser for `/campaign-qa`:** Claude in Chrome. No Bun or gstack `/browse` install, and it
+   uses the tester's real logged-in sessions.
+5. **Relationship to the Marketing AI OS repo:** this is its Marketing department template.
+6. **Plan review order:** CMO, then brand, then ops. Scope decides what ops sets up, and brand
+   can change the message and channels ops builds tracking around.
 
 ---
 
