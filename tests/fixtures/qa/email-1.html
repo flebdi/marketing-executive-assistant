@@ -1,0 +1,25 @@
+<!-- FICTIONAL test fixture for /campaign-qa and scripts/link-check.mjs. Northwind Analytics is not a real company.
+     Deliberate bugs: a misspelled utm_campaign (header link), a missing utm_content (speaker link),
+     a planned link that is missing (email1-footer-agenda), and an image without alt text. -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Close the books in 5 days, not 8</title></head>
+<body>
+  <a href="https://northwind.example/webinars/month-end-close?utm_source=hubspot&amp;utm_medium=email&amp;utm_campaign=2026-11-month-end-webniar&amp;utm_content=email1-header-logo">
+    <img src="https://northwind.example/img/logo.png" alt="Northwind Analytics">
+  </a>
+  <p>Hi {{contact.firstname | default: "there"}},</p>
+  <p>Month-end close takes most finance teams 8 days. Join our 45-minute session on 2026-11-18 at 11am ET.</p>
+  <img src="https://northwind.example/img/close-chart.png">
+  <p>
+    <a href="https://northwind.example/webinars/month-end-close?utm_source=hubspot&amp;utm_medium=email&amp;utm_campaign=2026-11-month-end-webinar&amp;utm_content=email1-cta-button">Save my seat</a>
+  </p>
+  <p>Hosted by <a href="https://northwind.example/team/priya-shah?utm_source=hubspot&amp;utm_medium=email&amp;utm_campaign=2026-11-month-end-webinar">our demand gen lead</a>.</p>
+  <p>Questions? <a href="mailto:events@northwind.example">events@northwind.example</a></p>
+  <footer>
+    <p><a href="https://www.linkedin.com/company/northwind-analytics-example">Follow us on LinkedIn</a></p>
+    <p>Northwind Analytics, 100 Example Street, Boston, MA 02110</p>
+    <p><a href="{{unsubscribe_link}}">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>

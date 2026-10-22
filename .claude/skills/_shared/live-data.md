@@ -116,6 +116,15 @@ connected. Field names are standard defaults; the team's setup may differ.
 | What has worked for this audience | HubSpot | Open and click rates of the last 10 emails to the same persona or list, with subject lines |
 | Past learnings | `learnings/learnings.md` | Entries tagged with this audience or channel (always available) |
 
+### `/campaign-qa`
+
+QA reads single test records it created itself, which hold no real personal data.
+
+| Need | Tool | What to pull |
+|---|---|---|
+| Test form record landed | HubSpot | The test contact by its test email: exists, form submission recorded, list memberships |
+| Test record synced | Salesforce | The test lead or contact: exists, campaign member of this campaign, member status |
+
 ### `/autoplan-campaign`
 
 Pulls nothing itself. Each review pulls its own data. It reports one combined Data block.
