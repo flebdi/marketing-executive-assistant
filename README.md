@@ -58,9 +58,11 @@ This template stands on two open-source projects. Thank you to both authors.
 sprint, role-based slash-command skills that hand files to each other, the office-hours
 forcing questions, the four scope modes, scored review gates, the QA loop, retros and
 learnings, the guardrail hooks, and the builder ethos that `ETHOS.md` rewrites for marketing.
-`/campaign-office-hours`, `/plan-cmo-review`, `/campaign-qa`, `/campaign-retro`, and
-`/learnings` are adapted from gstack's `/office-hours`, `/plan-ceo-review`, `/qa`, `/retro`,
-and `/learn`.
+`/campaign-office-hours`, `/plan-cmo-review`, `/plan-brand-review`, `/plan-ops-review`,
+`/creative-shotgun`, `/copy-review`, `/campaign-qa`, `/campaign-retro`, and `/learnings` are
+adapted from gstack's `/office-hours`, `/plan-ceo-review`, `/plan-design-review`,
+`/plan-eng-review`, `/design-shotgun`, `/review`, `/qa`, `/retro`, and `/learn`.
+`/compliance-review` borrows its evidence-first findings from `/cso`.
 
 **AIS-OS by Nate Herk** (MIT). The foundation: the Four Cs of an AI operating system
 (context, connections, capabilities, cadence), the Three Ms of AI mindset, the onboarding

@@ -38,12 +38,16 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 **Sprint**
 - `/campaign-office-hours` *(Phase 1)*: six forcing questions. Writes `brief.md`.
 - `/plan-cmo-review` *(Phase 2)*: scope and strategy review. Writes `plan-cmo.md`.
-- `/plan-brand-review` *(Phase 2)*: brand scoring. Writes `plan-brand.md`.
-- `/plan-ops-review` *(Phase 2)*: tracking, systems, scheduling. Writes `plan-ops.md`.
+- `/plan-brand-review` *(Phase 2)*: claims check, brand scoring, and the message plan. Writes
+  `plan-brand.md`.
+- `/plan-ops-review` *(Phase 2)*: segments, tracking, CRM, schedule, QA test plan, launch settings.
+  Writes `plan-ops.md`.
 - `/autoplan-campaign` *(Phase 2)*: runs the three plan reviews in order: CMO → brand → ops.
-- `/creative-shotgun` *(Phase 3)*: 4 to 6 variants. Writes `creative/`.
-- `/copy-review` *(Phase 3)*: writes `review-copy.md`.
-- `/compliance-review` *(Phase 3)*: writes `review-compliance.md`.
+- `/creative-shotgun` *(Phase 3)*: 4 to 6 variants per asset, comparison page, you pick. Writes
+  `creative/variants/` and `creative/final/`.
+- `/copy-review` *(Phase 3)*: facts, claims, tokens, voice; fixes typos. Writes `review-copy.md`.
+- `/compliance-review` *(Phase 3)*: email law, consent, claims, quotes. Pass or fail. Writes
+  `review-compliance.md`.
 - `/campaign-qa` *(Phase 1)*: real browser QA via Claude in Chrome. Writes `qa-report.md`.
 - `/launch` *(Phase 4)*: gated send or publish. Writes `launch.md`.
 - `/launch-watch` *(Phase 4)*: first 24 to 48 hours. Writes `watch.md`.

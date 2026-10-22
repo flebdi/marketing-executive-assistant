@@ -116,6 +116,19 @@ connected. Field names are standard defaults; the team's setup may differ.
 | What has worked for this audience | HubSpot | Open and click rates of the last 10 emails to the same persona or list, with subject lines |
 | Past learnings | `learnings/learnings.md` | Entries tagged with this audience or channel (always available) |
 
+### `/creative-shotgun`
+
+| Need | Tool | What to pull |
+|---|---|---|
+| Subject lines that worked for this audience | HubSpot | Subject line, open rate, and click rate of the last 10 emails to the same persona or list |
+| Past picks and results | `campaigns/*/creative/variants/`, `campaigns/*/retro.md`, `learnings/learnings.md` | Pick sections, cited results, `tactic:taste` and `tactic:subject-line` entries (always available) |
+
+### `/compliance-review`
+
+| Need | Tool | What to pull |
+|---|---|---|
+| Consent coverage | HubSpot | Count of the target segment by region, and how many in each region have the consent basis `context/channels.md` requires |
+
 ### `/campaign-qa`
 
 QA reads single test records it created itself, which hold no real personal data.
