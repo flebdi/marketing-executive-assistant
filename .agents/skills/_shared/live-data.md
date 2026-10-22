@@ -125,6 +125,20 @@ QA reads single test records it created itself, which hold no real personal data
 | Test form record landed | HubSpot | The test contact by its test email: exists, form submission recorded, list memberships |
 | Test record synced | Salesforce | The test lead or contact: exists, campaign member of this campaign, member status |
 
+### `/campaign-retro`
+
+Find records by the campaign's `utm_campaign` slug and Salesforce campaign name from
+`plan-ops.md`. Week mode pulls only the goal metric per launched campaign.
+
+| Need | Tool | What to pull |
+|---|---|---|
+| Goal metric actual | Whichever tool the brief's metric lives in | The metric as the brief defines it, over the brief's date range |
+| Email funnel | HubSpot | Per email: sent, delivered, opens, clicks, unsubscribes, bounces |
+| Page and form funnel | HubSpot, GA4 | Sessions with this `utm_campaign`, form submissions, by `utm_source` and `utm_content` |
+| CRM outcome | Salesforce | Campaign members by status, `NumberOfOpportunities`, `AmountAllOpportunities`, `NumberOfWonOpportunities`, `ActualCost` |
+| Paid results | The ad platform, if connected | Spend, impressions, clicks, conversions per ad variant |
+| Comparison | `campaigns/*/retro.md` | Cited results of past campaigns to the same persona or of the same type (always available) |
+
 ### `/autoplan-campaign`
 
 Pulls nothing itself. Each review pulls its own data. It reports one combined Data block.

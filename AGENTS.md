@@ -63,6 +63,7 @@ Skills are added phase by phase. See `PLAN-marketing-executive-assistant.md` for
 - `references/`: API notes for connected tools.
 - `decisions/log.md`: append-only decisions and gate overrides.
 - `transcripts/`: meeting transcripts. Summaries and key decisions in `transcripts/summaries/`.
+- `reports/`: dated reports across campaigns (weekly retro).
 - `routines/`: scheduled work (weekly retro, launch watch).
 - `scripts/`: helpers (UTM builder, link checker).
 - `tests/`: one scenario file per skill.
