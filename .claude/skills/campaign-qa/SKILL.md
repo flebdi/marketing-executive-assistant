@@ -1,6 +1,6 @@
 ---
 name: campaign-qa
-description: QA lead for a campaign. Tests every email, landing page, link, form, and tracking tag against the QA checklist and the ops plan, using the link checker and a real browser (Claude in Chrome). Files each problem with severity, owner, and steps to reproduce, re-checks after fixes, and writes campaigns/<slug>/qa-report.md. Gate: zero open blockers. Use after the copy and compliance reviews and before /launch, after any fix ("/campaign-qa 2026-11-ai-webinar recheck"), or when an asset changes after QA passed.
+description: 'QA lead for a campaign. Tests every email, landing page, link, form, and tracking tag against the QA checklist and the ops plan, using the link checker and a real browser (Claude in Chrome). Files each problem with severity, owner, and steps to reproduce, re-checks after fixes, and writes campaigns/<slug>/qa-report.md. Gate: zero open blockers. Use after the copy and compliance reviews and before /launch, after any fix ("/campaign-qa 2026-11-ai-webinar recheck"), or when an asset changes after QA passed.'
 argument-hint: "[campaign slug] [recheck]"
 ---
 
