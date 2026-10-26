@@ -1,9 +1,6 @@
 # Plan: Marketing Executive Assistant (gstack for marketing teams)
 
 **Owner:** Forkane Lebdi
-**Created:** 2026-10-07
-**Target:** v1 published by 2026-11-10 (leaves a month for the other 2 department templates before the 2026-12-10 deadline)
-**Folder:** `C:\Users\lebdi\Downloads\Marketing Executive assistant\`
 
 ---
 
@@ -88,8 +85,7 @@ marketing-executive-assistant/
 │   ├── intake-checklist.md    # what a request must include (from the MOps validator)
 │   └── qa-checklist.md        # baseline checks every launch must pass
 ├── campaigns/
-│   ├── _template/             # copied for each new campaign
-│   └── 2026-11-example-webinar/   # the worked example (fictional company)
+│   └── _template/             # copied for each new campaign
 ├── learnings/
 │   └── learnings.md           # what we learned, tagged by channel/audience/tactic
 ├── decisions/log.md           # append-only decisions + gate overrides
@@ -309,7 +305,7 @@ Rules:
 
 ## 9. Build phases
 
-### Phase 0: Repo setup (Oct 7–9)
+### Phase 0: Repo setup
 - [x] Move the gstack clone into `_reference/gstack/`, gitignore it, and `git init`.
 - [x] Create the folder skeleton from section 3.
 - [x] Write `CLAUDE.md`, `AGENTS.md`, `NOTICE.md`, `ETHOS.md`, `_shared/preamble.md`.
@@ -317,7 +313,7 @@ Rules:
 - [x] Write `playbooks/naming-conventions.md` (campaign + UTM rules) and `campaigns/_template/`.
 - [x] Commit: "Scaffold Marketing Executive Assistant".
 
-### Phase 1: MVP, the core loop (Oct 10–16)
+### Phase 1: MVP, the core loop
 - [ ] `/onboard-marketing`
 - [ ] `/campaign-office-hours`
 - [ ] `/campaign-qa` + `scripts/link-check.mjs` + `scripts/utm-builder.mjs`
@@ -325,29 +321,28 @@ Rules:
 - [ ] Run the fictional worked-example campaign through brief → QA → retro.
 - **Exit check:** a stranger could run these 4 commands from the README and get useful files.
 
-### Phase 2: Plan layer (Oct 17–23)
+### Phase 2: Plan layer
 - [ ] `/plan-cmo-review`, `/plan-brand-review`, `/plan-ops-review` (run in that order)
 - [ ] `/autoplan-campaign`
 - [ ] Scored gates written to `status.md`.
 
-### Phase 3: Create + review (Oct 24–30)
+### Phase 3: Create + review
 - [ ] `/brand-system`
 - [ ] `/creative-shotgun`, with a comparison page for picking variants.
 - [ ] `/copy-review`, `/compliance-review`
 - [ ] Optional: second-model review (gstack's `/codex` idea) for copy.
 
-### Phase 4: Launch + safety + cadence (Oct 31–Nov 6)
+### Phase 4: Launch + safety + cadence
 - [ ] `send-guard.mjs`, `freeze-guard.mjs`, `/guard`, registered in `settings.json`.
 - [ ] `/launch`, `/launch-watch`
 - [ ] `/audit` (Four Cs + sprint coverage)
 - [ ] Weekly retro routine in `routines/`.
 
-### Phase 5: Publish (Nov 7–10)
+### Phase 5: Publish
 - [ ] README: what it is, 2-minute install, the sprint diagram, one command per stage.
 - [ ] Complete the worked example folder (every file in section 4 filled in).
 - [ ] Mirror skills into `.agents/skills/` and smoke-test in Codex.
-- [ ] Push a public GitHub repo, and link it from the portfolio site.
-- [ ] LinkedIn post: "I adapted YC's Claude Code setup for marketing teams" + an image in the usual style.
+- [ ] Push a public GitHub repo.
 
 ---
 
@@ -370,7 +365,7 @@ A **fictional** company with fake data, clearly labelled as fictional so it can 
 - **Company:** "Northwind Analytics", a B2B analytics SaaS.
 - **Campaign:** a webinar invite series (3 emails + a landing page + LinkedIn ads).
 - **Covers:** every stage, including one deliberate QA bug (a broken UTM) that `/campaign-qa` catches, and one gate override that gets logged.
-- **Purpose:** the README demo, the portfolio case study, and LinkedIn content.
+- **Purpose:** the README demo, and a filled-in reference teams can compare their own files against.
 
 ---
 
@@ -387,8 +382,7 @@ empty for each team's own marketing decisions.
    (tasks), Jira (web and dev requests). A common mid-market B2B stack.
 4. **Browser for `/campaign-qa`:** Claude in Chrome. No Bun or gstack `/browse` install, and it
    uses the tester's real logged-in sessions.
-5. **Relationship to the Marketing AI OS repo:** this is its Marketing department template.
-6. **Plan review order:** CMO, then brand, then ops. Scope decides what ops sets up, and brand
+5. **Plan review order:** CMO, then brand, then ops. Scope decides what ops sets up, and brand
    can change the message and channels ops builds tracking around.
 
 ---
