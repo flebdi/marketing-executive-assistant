@@ -35,6 +35,23 @@ You don't need to code. You need Claude Code and a one-time setup interview (Par
 | Retros that never happen, lessons that get lost | Every campaign ends with 1 to 3 tagged learnings that future briefs pull in automatically |
 | An irreversible send going wrong | Nothing is sent or published without every gate passing and a person typing a confirmation |
 
+## See a filled-in example: Northwind Analytics
+
+The template ships blank (`TBD`) so your team can fill it in. To see what it looks like
+filled in, open [examples/northwind/](examples/northwind/). It's a complete set of files for
+**Northwind Analytics, a fictional B2B SaaS company**. Every person, email address, number,
+and quote in it is made up.
+
+| Example file | What it shows |
+|---|---|
+| [BRAND.md](examples/northwind/BRAND.md) | Voice traits, tone per channel, an approved claim with source and expiry, banned phrases, voice samples |
+| [context/](examples/northwind/context/) | Company, audience and persona, team and approvers, channels, send calendar |
+| [decisions/log.md](examples/northwind/decisions/log.md) | A logged campaign decision |
+| [campaigns/2026-11-year-end-close/](examples/northwind/campaigns/2026-11-year-end-close/) | A campaign partway through the sprint: brief, CMO review, first email draft, and a QA report |
+
+The [example's README](examples/northwind/README.md) walks through each file and shows how to
+run the skills against Northwind in a scratch copy of the repo.
+
 ---
 
 ## Roadmap: how to use it
@@ -71,9 +88,9 @@ connect tools                                                                   
 > Tip: re-run one part of onboarding any time, for example `/onboard-marketing team` after a
 > hire.
 
-> Want to see what filled-in files look like first? [examples/northwind/](examples/northwind/)
-> is a complete example for a fictional company, including a campaign partway through the
-> sprint.
+> Not sure what a good answer looks like? Compare with the matching file in
+> [examples/northwind/](examples/northwind/) (see
+> [See a filled-in example](#see-a-filled-in-example-northwind-analytics)).
 
 ### Part 2: Run the sprint for every campaign
 
